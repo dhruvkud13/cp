@@ -74,6 +74,13 @@ int main(){
     avoidDuplicates(a,0);
     return 0;
 
+    // stl trick, still stays O(N!)
+    // sort(a.begin(), a.end());
+    // do
+    // {
+    //     ans.push_back(a);
+    // } while (next_permutation(a.begin(), a.end()));
+
 }
 
 //permutations for array left
